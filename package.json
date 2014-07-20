@@ -1,0 +1,20 @@
+{
+  "name": "peterbeno.com",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-less": "~0.11.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-yui-compressor": "~0.3.3",
+    "less": "~1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Beňo",
+  "license": "MIT"
+}

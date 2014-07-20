@@ -1,0 +1,24 @@
+{
+  "name": "peterbeno.com",
+  "version": "0.0.0",
+  "authors": [
+    "Peter Beňo <najlepsiwebdesigner@gmail.com>"
+  ],
+  "description": "personal website",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "peterbeno.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "html5shiv": "~3.7.2",
+    "jquery": "1.11"
+  }
+}
