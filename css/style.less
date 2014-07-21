@@ -1,16 +1,56 @@
 @import "../bower_components/bootstrap/less/bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,latin-ext);
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+
+// override bootstrap's configs
+@border-radius-base:        0px;
+@border-radius-large:       0px;
+@border-radius-small:       0px;
+
+// theme definitions
+@backgroundColor: #191919;
+@primaryColor: #f6000e;
+@secondaryColor: #fee612;
+@baseTextColor: #ccc;
+
+
+
+
 body {
-	font-family: 'Roboto Slab', serif;	
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	background: @backgroundColor;
+	color: @baseTextColor;
 }
 
+#page {
+	#title {
+		font-size:60px;
+		color:@primaryColor !important;
+	}
 
+	h1, h2, h3, h4, h5, h6 {
+		font-family:'Roboto Slab', serif;
+	}
 
+	.navbar-nav a {
+		color:@primaryColor;
+	}
 
+	.btn-primary {
+		background:#fee612;
+		color:darken(#fee612, 40%);
+		border-color:darken(#fee612, 20%);
+	}
+	.btn-default {
+		color:#000;
+	}
+
+	.navbar-collapse a:hover {
+		background: #333;
+	}
+}
 
 
 
